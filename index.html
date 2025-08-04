@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boris Suburbian - Œuvres Littéraires</title>
+    <meta name="description" content="Site pour retrouver toutes les productions littéraires de Boris Suburbian">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">Boris Suburbian</h1>
+            <p class="header-subtitle">Œuvres Littéraires</p>
+            <nav class="header-nav">
+                <a href="nouvelles.html" class="nav-link">Nouvelles</a>
+                <a href="poemes.html" class="nav-link">Poèmes</a>
+            </nav>
+        </div>
+        <div class="header-image">
+            <img src="img/astronomy-1866822_1280.jpg" alt="Constellation" class="constellation-img">
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="intro">
+            <p class="intro-text">Ce site répertorie toutes les œuvres de Boris Suburbian</p>
+        </section>
+
+        <section class="historique">
+            <h2 class="section-title">Historique</h2>
+            <div class="content-card">
+                <p>
+                    Originaire de Montpellier, Boris écrit des nouvelles en lien avec l'univers de Vampire la Mascarade, 
+                    monte des projets littéraires et vidéo-ludiques et s'essaie à la data science.
+                </p>
+            </div>
+        </section>
+
+        <section class="ecrits">
+            <h2 class="section-title">Écrits</h2>
+            <div class="content-card">
+                <nav class="ecrits-nav">
+                    <ul class="ecrits-list">
+                        <li><a href="nouvelles.html" class="ecrits-link">Nouvelles</a></li>
+                        <li><a href="poemes.html" class="ecrits-link">Poèmes</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section class="forums">
+            <h2 class="section-title">Forums</h2>
+            <div class="content-card">
+                <a href="http://silvercraft.favas.free.fr/" class="forum-link" target="_blank">Silvercraft</a>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">Me contacter</h2>
+            <div class="content-card">
+                <form class="contact-form">
+                    <fieldset class="form-fieldset">
+                        <legend class="form-legend">Nous contacter</legend>
+                        <div class="form-group">
+                            <label for="emailinput" class="form-label">Votre email</label>
+                            <input type="email" name="email" id="emailinput" class="form-input" required>
+                        </div>
+                        <button type="submit" class="form-button">Envoyer</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Boris Suburbian - Tous droits réservés</p>
+    </footer>
+</body>
+</html> 
